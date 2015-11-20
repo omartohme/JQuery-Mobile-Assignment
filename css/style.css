@@ -1,0 +1,64 @@
+/* Dialog Buttons */
+
+.ui-btn.ui-btn.ui-btn-inline.ui-icon-carat-r.ui-btn-icon-right{
+    float:right;
+
+}
+.ui-btn.ui-btn.ui-btn-inline.ui-icon-carat-r.ui-btn-icon-left{
+    float:left;
+    
+
+}
+
+/* Page Text */
+
+h1 {
+ text-align: center;   
+}
+
+.location_number{
+    text-align: center;
+}
+
+.header2{
+    text-align: center;   
+}
+
+.ui-title{
+        white-space: normal !important;
+}
+
+
+/* Images */
+
+.header-img{
+    width:100%;
+    
+}
+
+.win-taste{
+    
+    height: 80px;
+    
+}
+
+.logo{
+    
+    width: 50px;   
+}
+    
+.winGlasses{
+    width:100%;    
+}
+
+.popphoto{
+    margin-left: 25%; 
+}
+
+.pouring{
+    width:100%;   
+}
+
+.self{
+    width: 50%;
+}

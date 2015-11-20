@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>League Championship Series</title>
+
+  <link rel="stylesheet" href="themes/omar.min.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+
+
+<body>
+
+
+  <section data-role="page" id="home" data-theme="b">
+  
+
+    <div data-role="panel" id="left-panel" class="ui-panel ui-panel-position-left ui-panel-display-push ui-body-inherit ui-panel-animate ui-panel-open">
+
+      <div class="ui-panel-inner">
+        <ul data-role="listview" class="ui-listview">
+          <li data-icon="delete" class="ui-first-child"><a href="#" data-rel="close" class="ui-btn ui-btn-icon-right ui-icon-delete">Close</a>
+          </li>
+          <li><a href="#" class="ui-btn ui-state-disabled">Home</a>
+          </li>
+          <li><a href="#info" class="ui-btn">About Me</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+
+
+    <div data-role="header" role="banner" class="ui-header ui-bar-inherit">
+
+      <h1 class="ui-title" role="heading" aria-level="1">NA LCS</h1>
+
+
+      <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" data-role="button" role="button">Menu</a>
+    </div>
+
+
+    
+
+    <article data-role="content" data-theme="b">
+      <img src="img/lol2.png" class="img-header"/>
+      <p>Greetings, today you will be learning about the League of Legends Championship Series! This is a league with the best players from North America and Europe. Please pick which ever league you would like to learn more about. League of Legends is a MOBA that is the most played game in the world to this day, currently everyday has 32 million users that log on.</p>
+
+      <div class="choice_list" data-theme="b">
+
+        <h1>Please select your region</h1>
+
+        <ul data-role="listview" data-inset="true" data-theme="b">
+
+          <li>
+            <a href="#NALCS" data-transition="pop" data-theme="b">
+              <img src="img/lcslogo.png" alt="" class="win-taste" />
+              <h3>North American LCS</h3>
+              <p>See what north america has to offer!</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" data-transition="pop" data-theme="b">
+              <img src="img/lcslogo.png" alt="" class="win-taste" />
+              <h3>European LCS</h3>
+              <p>NA > EU</p>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </article>
+
+    <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn ui-state-disabled" data-icon="home" data-iconpos="top">Home</a>
+          </li>
+
+          <li><a href="#info" class="ui-btn" data-icon="info" data-iconpos="top">About Me</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+  </section>
+  
+
+
+  <section data-role="page" id="NALCS" data-theme="b" data-dialog="false">
+    
+
+    <div data-role="panel" id="left-panel" class="ui-panel ui-panel-position-left ui-panel-display-push ui-body-inherit ui-panel-animate ui-panel-open">
+
+      <div class="ui-panel-inner">
+        <ul data-role="listview" class="ui-listview">
+          <li data-icon="delete" class="ui-first-child"><a href="#" data-rel="close" class="ui-btn ui-btn-icon-right ui-icon-delete">Close</a>
+          </li>
+          <div data-role="collapsible" data-collapsed="true">
+            <h4>The teams!</h4>
+            <ul data-role="listview">
+              <li><a href="#lcs1" data-pageNumber="1" class="ui-btn">1. Team Solo Mid</a>
+              </li>
+              <li><a href="#lcs2" data-pageNumber="2" class="ui-btn">2. CounterLogic Gaming</a>
+              </li>
+              <li><a href="#lcs3" data-pageNumber="3" class="ui-btn">3. Team Liquid</a>
+              </li>
+              <li><a href="#lcs4" data-pageNumber="4" class="ui-btn">4. Team Dignitas</a>
+              </li>
+              <li><a href="#lcs5" data-pageNumber="5" class="ui-btn">5. NRG Esports</a>
+              </li>
+              <li><a href="#lcs6" data-pageNumber="6" class="ui-btn">6. Cloud 9</a>
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div data-role="header" role="banner" class="ui-header ui-bar-inherit" data-theme="b">
+      <h1 class="ui-title" role="heading" aria-level="1">The teams!</h1>
+      <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-link ui-btn-left ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" data-role="button" role="button">Menu</a>
+    </div>
+
+
+    <article data-role="content" data-theme="b">
+
+      <h1>Welcome to the North American LCS</h1>
+      <p>The LCS is a league created by Riot Games the people that made this wonderful game, it's purpose is to show us who the best team in North America is. Most of our players are from Canada or United States but just like other sports we have imports
+        that show insane skill and dedication such as Bjergsen a young kid from Denmark that made it big in NA.</p>
+
+      <a href="#lcs1" id="startTut" class="ui-shadow ui-btn ui-corner-all" data-transition="pop" data-theme="b">Start learning!</a>
+      <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn" data-icon="home" data-iconpos="top">Home</a>
+            </li>
+
+            <li><a href="#info" class="ui-btn" data-icon="info" data-iconpos="top">About Me</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </article>
+  </section>
+
+
+  <section data-role="page" id="lcs1" data-theme="b" data-dialog="true" data-close-btn="none">
+
+
+    <div data-role="header" data-theme="b">
+      <a href="#home" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+
+      <h1>Team 1 of 6</h1>
+
+
+    </div>
+    <article data-role="content" data-theme="b">
+     
+      <h1>Team Solo Mid</h1>
+      <img src="img/tsm.jpg" />
+
+
+      <p>Team SoloMid (TSM) is a North American eSports Team, created around the community website SoloMid.Net by brothers Andy "Reginald" Dinh and Dan "Dan Dinh" Dinh in September 2009. The team was first seen in early 2011 after being formed to participate
+        in the Riot Season 1 Championship later that year. The organization has also previously hosted the now-disbanded Team SoloMid Evo.
+      </p>
+      <p>Recent News: Team SoloMid failed to make it out of the group stage at the 2015 World Championship. On October 14th, the team announced the retirement of Dyrus and Santorin, while Lustboy will move from starting Support to Analyst.
+      </p>
+
+
+      <a href="#" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-state-disabled backP" data-theme="b">Back</a>
+
+
+      <a href="#lcs2" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+    </article>
+  </section>
+
+
+  <section data-role="page" id="lcs2" data-theme="b" data-dialog="true" data-close-btn="none">
+
+    <div data-role="header" data-theme="b">
+      <a href="#home" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+
+      <h1>Team 2 of 6</h1>
+
+
+    </div>
+    <article data-role="content" data-theme="b">
+
+      <h1>CounterLogic Gaming</h1>
+      <img src="img/clg2.png" />
+
+      <p>Do you have faith?</p>
+      <p>Counter Logic Gaming (CLG) is a North American eSports organization. Founded in April 2010 by George "HotshotGG" Georgallidis, CLG is the oldest League of Legends team still active to this day. Counter Logic Gaming currently only hosts their flagship
+        team, as well as CLG Halo, a team based on Halo 2: Anniversary. However, they have previously sponsored Counter Logic Gaming Black, Counter Logic Gaming EU, and one Defense of the Ancients 2 team
+
+        <p>*CLG will always promise to do good in the incoming split but always manage to choke sadly.
+        </p>
+        <p>Recent News: October 31st that the team have parted ways with Doublelift who have been the teams AD Carry for 4 years</p>
+
+
+        <a href="#lcs1" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+        <a href="#lcs3" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+        </div>
+
+
+    </article>
+  </section>
+  <!--home-->
+
+
+  <section data-role="page" id="lcs3" data-theme="b" data-dialog="true" data-close-btn="none">
+
+    <div data-role="header" data-theme="b">
+      <a href="#home" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+
+      <h1>Team 3 of 6</h1>
+    </div>
+
+    <article data-role="content" data-theme="b">
+
+      <h1>Team Liquid</h1>
+      <img src="img/liquid2.png" />
+
+      <p>In January 2015, Team Curse was absorbed by Team Liquid (TL), a team based in the Netherlands. On its own, Team Liquid, though new to the League scene, had already made a name for itself in global eSports. Beginning as a StarCraft: Brood War team
+        in 2000, it has since expanded into HearthStone: Heroes of WarCraft and Super Smash Bros. while also maintaining its StarCraft division. Aside from its squads, Team Liquid is known for its website - TeamLiquid.net - which is the most-visited StarCraft-related
+        website in the world.</p>
+      <p>Recent News: October 29th, Xpecial becomes a free agent.</p>
+      <p>*Team Liquid is my favorite team</p>
+
+      <ul>
+        <li>Current Roster:</li>
+      </ul>
+      <ol>
+        <li>Liquid Quas</li>
+        <li>Liquid IWillDominate</li>
+        <li>Liquid Fenix</li>
+        <li>Liquid Piglet</li>
+        <li>Liquid Smoothie</li>
+      </ol>
+
+
+      <a href="#lcs2" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+      <a href="#lcs4" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+    </article>
+  </section>
+
+
+  <section data-role="page" id="lcs4" data-theme="b" data-dialog="true" data-close-btn="none">
+
+    <div data-role="header" data-theme="b">
+      <a href="#home" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+
+      <h1>Team 4 of 6</h1>
+    </div>
+
+    <article data-role="content" data-theme="b">
+      <!--content-->
+      <h1>Team Dignitas</h1>
+      <img src="img/dig2.png" />
+
+
+      <p>Team Dignitas is an International e-Sports team headquartered in Great Britain. It was founded on September 9th, 2003 as a fusion of the Battlefield 1942 clans Legion Condor and Sweden Kompanix. Later on, more teams were added to the organization,
+        and in July 2004 Team Dignitas was registered as a company - Team Dignitas Ltd. In addition to their League of Legends team, Dignitas also sponsors teams and players for Battlefield 3, Counter Strike, Fifa, various fighting games, Quake Live,
+        racing games, and StarCraft II. Michael "ODEE" O'Dell is the current Managing Director of the Team Dignitas organization. The League of Legends division of Dignitas is one of the leading teams in the North American scene, placing highly in numerous
+        premier and major events, both regional and international, since its conception with the acquisition of Rock Solid in September 2011. Currently, Team Dignitas hosts one team in the North American Season 4 League Championship Series</p>
+
+      <p>Recent News: November 18th, SmittyJ , Kirei , and Apollo Join the starting lineup</p>
+
+
+      <a href="#lcs3" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+      <a href="#lcs5" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+    </article>
+
+  </section>
+
+
+  <section data-role="page" id="lcs5" data-theme="b" data-dialog="true" data-close-btn="none">
+
+
+    <div data-role="header" data-theme="b">
+      <a href="#home" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+
+      <h1>Step 5 of 6</h1>
+    </div>
+
+    <article data-role="content" data-theme="b">
+
+      <h1>NRG Esports</h1>
+      <img src="img/nrg.png" />
+
+
+      <p>NRG Esports is a team participating in the 2016 NA LCS Spring Split after aquiring the NA LCS Spot of Team Coast.NRG Esports was formed when the co-owners for the Sacramento Kings, an American NBA team, purchased Team Coast's NA LCS spot for Spring
+        of 2016. NRG eSports will bring a new sense of professionalism to eSports. Under the founders, Gerard Kelly, Mark Mastrov, and Andy Miller, we can take our experience in business and sports to the world of competitive gaming. The NRG brand represents
+        the energy of a group of people coming together, whether it’s the power of five players working together or the roar of their fans.</p>
+      <p>Recent News: Team NRG aquires Coast, NRG will be participating to the NA LCS in 2016.</p>
+
+
+      <a href="#lcs4" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+      <a href="#lcs6" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right nextP" data-theme="b">Next</a>
+
+
+    </article>
+
+  </section>
+
+
+  <section data-role="page" id="lcs6" data-theme="b" data-dialog="true" data-close-btn="none">
+
+
+    <div data-role="header" data-theme="b">
+      <a href="#home" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+
+      <h1>Step 6 of 6</h1>
+    </div>
+
+    <article data-role="content" data-theme="b">
+
+      <h1>Cloud 9</h1>
+      <img src="img/cloud2.png" />
+
+      <p>Cloud9 (C9) is a North American League of Legends team competing in the North American League Championship Series. The team is notable for winning two LCS seasons, as well as a top eight finish at the Season 3 World Championship. The team currently
+        competes under the name Cloud9 G2A, in representation of their sponsor G2A.com. It was initially formed by the roster of Quantic Gaming after leaving the financially struggling Quantic Gaming organization and currently also features divisions
+        in DotA 2, Hearthstone: Heroes of WarCraft, CS:GO, Super Smash Bros. Melee, Halo and Heroes of the Storm.</p>
+        <p>Recent News:  19th, Rush and Bunny FuFuu join. Hai moves to Support position.</p>
+
+
+      <a href="#lcs5" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-l ui-btn-icon-left backP" data-theme="b">Back</a>
+      <a href="#lcs7" class="ui-btn ui-corner-all ui-btn-icon-notext ui-btn-inline ui-icon-carat-r ui-btn-icon-right ui-state-disabled nextP" data-theme="b">Next</a>
+
+
+    </article>
+  </section>
+  <section data-role="page" id="info" data-theme="b">
+    <!--home-->
+    <div data-role="header" data-theme="b">
+      <!--header-->
+      <h1>About Me</h1>
+    </div>
+    <img src="" alt "Caleb Bear">
+    <article data-role="content" data-theme="b">
+      <!--content-->
+      <p>Hey! My name is Omar and I am currently studying Mobile Applications Design and Developpement at Algonquin College Ottawa, Ontario. I'm a huge league of legends fan and literally study the game almost every single day. I'm hoping one day to be a
+        developper or a designer for Riot Games.</p>
+
+      <a href="#popupMe" data-rel="popup" data-position-to="window" data-transition="slidefade">
+        <img class="popphoto" src="img/omar.png" alt="Me" style="width:50%">
+      </a>
+
+      <div data-role="popup" id="popupMe" data-overlay-theme="b" data-theme="b" data-corners="false">
+        <a href="#popupMe" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+        <img class="popupphoto" src="img/omar.png" alt="Omar Tohme">
+      </div>
+
+      <h1>Skills</h1>
+      <ul data-role="listview">
+        <li>Javascript</li>
+        <li>HTML5 & CSS3</li>
+        <li>Cinema 4D</li>
+        <li>PhotoshopCS5</li>
+        <li>Illustrator</li>
+      </ul>
+
+
+      <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="b">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn" data-icon="home" data-iconpos="top">Home</a>
+            </li>
+
+            <li><a href="#" class="ui-btn ui-state-disabled" data-icon="info" data-iconpos="top">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </article>
+
+  </section>
+
+
+</body>
+
+</html>
